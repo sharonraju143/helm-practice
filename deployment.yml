@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: hello-world:latest
+        - image: kodekloud/webapp-color
           name: guestbook-ui
           ports:
-            - containerPort: 80
+            - containerPort: 8080
